@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+<body class="w-full h-screen bg-gradient-to-br from-blue-300 to-purple-300">
+    <main class="h-screen w-[40%] mx-auto flex items-center justify-center">
+
+        <div class="w-[80%] h-[90%] bg-white rounded-lg">
+<h3 class="text-center font-bold my-3">TODO APP</h3>
+
+<div class="flex w-full px-2 gap-2">
+    <input id="taskInput" class="rounded-md border-2 w-[90%]" type="text">
+    <button onClick="add()" class="rounded-md bg-blue-500 px-2 text-white font-semibold"><i class="ri-add-line"></i></button>
+</div>
+<div id="taskContainer" class="bg-gray-300 mx-auto w-[90%] h-[80%] mt-2 flex flex-col gap-2">
+
+</div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
